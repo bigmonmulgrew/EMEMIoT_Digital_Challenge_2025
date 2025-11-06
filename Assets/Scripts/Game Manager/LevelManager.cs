@@ -64,5 +64,22 @@ public class LevelManager : MonoBehaviour
     public static void LoadWinScreen()
     {
         SceneManager.LoadScene("WinScreen");
-    }   
+    }
+    public static void LoadAccount()
+    {
+        SceneManager.LoadScene("AccountScreen");
+    }
+    public static void LoadAchievements()
+    {
+        SceneManager.LoadScene("AchievementsScreen");
+    }
+    public static void LoadPlanJourney()
+    {
+        SceneManager.LoadScene("PlanJourneyScreen");
+    }
+    public static void LoadBuyTicket()
+    {
+        SceneManager.LoadScene("BuyTicketsScreen");
+    }
+
 }

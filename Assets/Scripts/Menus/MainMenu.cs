@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class MainMenu : MonoBehaviour
@@ -13,6 +14,11 @@ public class MainMenu : MonoBehaviour
         LevelManager.LoadOptions();
     }
 
+    public void OpenAccount() { LevelManager.LoadAccount(); }
+    public void OpenAchievements() { LevelManager.LoadAchievements(); }
+    public void OpenBuyTicket() { LevelManager.LoadBuyTicket(); }
+    public void OpenPlanJourney() {  LevelManager.LoadPlanJourney(); }
+    
     //public void ToggleLeaderboard()
     //{
     //    leaderboardUI.SetActive(!leaderboardUI.activeSelf);
